@@ -57,7 +57,7 @@ public class PhotoLibraryViewController: UIViewController {
     
     public override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        collectionView.frame = view.frame
+        collectionView.frame = view.bounds
     }
     
     public func present(inViewController: UIViewController, animated: Bool) {
